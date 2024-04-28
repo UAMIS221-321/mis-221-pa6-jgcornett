@@ -37,7 +37,7 @@ function handleNewClick() {
 }
 
 function handleRentClick() {
-    myBook.numAvlb++;
+    myBook.numAvlb--;
     document.getElementById("bookAvlb").value = myBook.numAvlb;
     putBook(myBook.id);
 }
